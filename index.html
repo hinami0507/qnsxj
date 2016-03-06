@@ -1,0 +1,92 @@
+<script type="text/javascript">
+var now = new Date();
+var company = now.getSeconds() % 7; //这将产生一个基于目前时间的0到6的整数。
+</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="image/x-icon" rel="shortcut icon" href="./logo16.ico" />
+    <meta http-equiv="Content-Type" content="text/html" charset="utf8">
+    <link rel="stylesheet" type="text/css" href="offer.css">
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="tag.js"></script>
+    <METAHTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <METAHTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+            <METAHTTP-EQUIV="Expires" CONTENT="0">
+                <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+                <meta name="viewport" content="user-scalable=no, width=device-width">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta content="yes" name="apple-mobile-web-app-capable">
+</head>
+
+<body>
+    <div id="bscreen" class="black"> </div>
+    <img id="cross" src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjcross.png">
+    <div id="basic">
+        <div class="intitle">
+            <h1 class="iget">我要拿</h1>
+            <h1 class="to">offer</h1>
+        </div>
+        <div class="get">
+            <form>
+                <input type="text" id="user" class="getname" onclick="" vale="abder" placeholder="输入自己或朋友的名字"> </input>
+                <button id="sb" onclick="getuser()" class="subname">生成offer</button>
+            </form>
+        </div>
+    </div>
+    <div id="offer">
+        <div>
+            <script type="text/javascript">
+            namepoi();
+            </script>
+        </div>
+        <img class="ar" id="accept" src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjaccept.png">
+        <img class="ar" id="refuse" src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjrefuse.png">
+        <div class="tagbox">
+            <ul id="tagyes">
+                <li id="tag1">拉高了年级就业水平！</li>
+                <li id="tag2">恭喜你走向人生巅峰之路！</li>
+                <li id="tag3">收下我的膝盖！</li>
+                <li id="tag4">Offer收割机放我们一命！！</li>
+            </ul>
+            <ul id="tagno">
+                <li id="tag11">HR哭晕在厕所！</li>
+                <li id="tag12">狂拽酷炫吊炸天啊！</li>
+                <li id="tag13">你不要把offer给我啊！</li>
+                <li id="tag14">这么做你妈知道吗！
+                </li>
+            </ul>
+        </div>
+        <div class="zin">
+            <a>
+                <button class="cho" onclick="clickyes()" id="yes">接受</button>
+            </a>
+            <a>
+                <button class="cho" onclick="clickno()" id="no">拒绝</button>
+            </a>
+        </div>
+    </div>
+    <a>
+        <button id="again" class="agandhe" onclick="location.reload()">再拿一个</button>
+    </a>
+    <button id="hello" class="agandhe" onclick="zuihouyes()">点击分享</button>
+    <div id="shareyes">
+        <img id="point" src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjpoi.gif">
+    </div>
+    <div id="shareno">
+        <img id="point" src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjpoi.gif">
+    </div>
+    <div class="nam">
+        <h1>
+</h1>
+    </div>
+    <div class="foot">
+        <img src="http://7xnp0k.com1.z0.glb.clouddn.com/qnsxjlogo1.png">
+        <p class="foottag">青年实习家
+            <br>最新500强名企实习秘籍</p>
+        <a href="http://mp.weixin.qq.com/s?__biz=MzA5NjEzMjk4NA==&mid=400359108&idx=1&sn=e02815b0ba772f6338aa8ce63dfe4d26&scene=0#rd">
+            <button class="att">点此获得</button>
+        </a>
+    </div>
+</body>
