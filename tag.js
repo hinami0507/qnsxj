@@ -50,7 +50,6 @@ function clickyes()
 	  shengt();
     $("#accept").fadeIn("fast");
     $("#accept").animate({width:'20%',height:'10%',opacity:'0.8'},1000);
-
     $("#no").fadeOut("slow");
     $("#yes").fadeOut("slow");
 
@@ -73,7 +72,7 @@ function clickno()
 		  case 5:result="拒绝苹果Special offer，表示一生愿做小米粉！";break;
 		  case 6:result="拒绝Facebook Special offer，爱国是TA一生的事业！";break;
 	}
-	   shengt();
+	  shengt();
     $("#refuse").fadeIn("fast");
     $("#refuse").animate({width:'20%',height:'10%',opacity:'0.8'},1000);
 
