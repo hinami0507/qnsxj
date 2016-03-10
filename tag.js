@@ -19,21 +19,18 @@ function getuser()
   hrtitle="亲爱的"+use+"同学:";
   document.getElementById("username").innerHTML=hrtitle;
 
- // document.getElementById("username").innerHTML=use;
 }
 
 function zuihouyes()
 { 
 	screen();
 	$("#shareyes").addClass("show");
-
 	$("#cross").fadeIn("slow");
 }
 function zuihouno()
 { 
 	screen();
 	$("#shareno").addClass("show");
-
 	$("#cross").fadeIn("slow");
 
 }
@@ -161,9 +158,6 @@ $(document).ready(function(){
       $("#point").fadeOut("slow");
   });
 });
-
-
-
 
 
 $(document).ready(function(){

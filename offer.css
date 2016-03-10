@@ -28,6 +28,7 @@ h1
 	background-color: #dd3e45;
 	color: #ffffff;
 	width: 50%;
+	max-width: 165px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 20pt;
@@ -111,9 +112,8 @@ h1
 .iget
 {
 	text-align: center;
-	letter-spacing: 12pt;
 	color: #4D4D4D;
-	margin-left: 6%;
+	margin-left: auto;
 	margin-right: auto;
 
 }
